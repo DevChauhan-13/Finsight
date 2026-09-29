@@ -1,0 +1,12 @@
+{
+  "ORD-2026-0046": "FEE_MISMATCH: Gateway fee charged (5%) exceeds contracted rate (2%)",
+  "ORD-2026-0047": "SETTLEMENT_DELAY: Transaction recorded in PG & ERP, but un-credited in Bank file",
+  "ORD-2026-0048": "MISSING_BANK_REF: Bank settlement record lacks valid UTR or reference tie-back",
+  "ORD-2026-0049": "ERP_AMOUNT_MISMATCH: ERP booked amount (\u20b912,000) differs from PG gross (\u20b910,000)",
+  "ORD-2026-0050": "REFUND_UNACCOUNTED: PG & Bank registered refund, but ERP has not posted reversal entry",
+  "ORD-2026-0051": "STATUS_MISMATCH: PG transaction FAILED, but bank statement shows funds credited",
+  "ORD-2026-0052": "PARTIAL_HOLD: Bank credit is short by \u20b92,500 due to gateway rolling reserve hold",
+  "ORD-2026-0053": "DUPLICATE_ENTRY: Multiple PG transactions found for identical Order ID",
+  "ORD-2026-0054": "HETEROGENEOUS_SCHEMA: Non-standard string format ('1600000 paise') resolved by Schema Normalizer",
+  "ORD-2026-0055": "TIMING_OUT_OF_PERIOD: ERP posting date is out of current fiscal period window"
+}
